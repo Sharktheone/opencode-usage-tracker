@@ -155,12 +155,11 @@ Built-in pricing for popular models (per million tokens):
 | Model | Input | Output | Cache Read | Cache Write |
 |-------|-------|--------|------------|-------------|
 | anthropic/claude-sonnet-4-5 | $3.00 | $15.00 | $0.30 | $3.75 |
-| anthropic/claude-opus-4-5 | $15.00 | $75.00 | $1.50 | $18.75 |
-| openai/gpt-5 | $5.00 | $15.00 | $2.50 | $5.00 |
-| openai/gpt-5.1 | $2.00 | $8.00 | $1.00 | $2.00 |
-| openai/gpt-5.2 | $2.00 | $8.00 | $1.00 | $2.00 |
-| openai/gpt-5-mini | $0.30 | $1.20 | $0.15 | $0.30 |
-| openai/codex-1 | $3.00 | $15.00 | $1.50 | $3.00 |
+| anthropic/claude-opus-4-5 | $5.00 | $25.00 | $0.50 | $6.25 |
+| openai/gpt-5 | $1.25 | $10.00 | $0.125 | $0.00 |
+| openai/gpt-5.1 | $1.25 | $10.00 | $0.125 | $0.00 |
+| openai/gpt-5.2 | $1.75 | $14.00 | $0.175 | $0.00 |
+| openai/gpt-5-mini | $0.25 | $2.00 | $0.025 | $0.00 |
 
 Custom pricing in config overrides these defaults.
 

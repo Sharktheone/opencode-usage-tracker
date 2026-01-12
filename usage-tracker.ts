@@ -76,16 +76,13 @@ interface AggregateStats {
 const DEFAULT_PRICING: Record<string, ModelPricing> = {
   // Anthropic
   "anthropic/claude-sonnet-4-5": { input: 3.00, output: 15.00, cacheRead: 0.30, cacheWrite: 3.75 },
-  "anthropic/claude-opus-4-5": { input: 15.00, output: 75.00, cacheRead: 1.50, cacheWrite: 18.75 },
-  
+  "anthropic/claude-opus-4-5": { input: 5.00, output: 25.00, cacheRead: 0.50, cacheWrite: 6.25 },
+
   // OpenAI GPT-5 family
-  "openai/gpt-5": { input: 5.00, output: 15.00, cacheRead: 2.50, cacheWrite: 5.00 },
-  "openai/gpt-5.1": { input: 2.00, output: 8.00, cacheRead: 1.00, cacheWrite: 2.00 },
-  "openai/gpt-5.2": { input: 2.00, output: 8.00, cacheRead: 1.00, cacheWrite: 2.00 },
-  "openai/gpt-5-mini": { input: 0.30, output: 1.20, cacheRead: 0.15, cacheWrite: 0.30 },
-  
-  // Codex
-  "openai/codex-1": { input: 3.00, output: 15.00, cacheRead: 1.50, cacheWrite: 3.00 },
+  "openai/gpt-5": { input: 1.25, output: 10.00, cacheRead: 0.125, cacheWrite: 0.0 },
+  "openai/gpt-5.1": { input: 1.25, output: 10.00, cacheRead: 0.125, cacheWrite: 0.0 },
+  "openai/gpt-5.2": { input: 1.75, output: 14.00, cacheRead: 0.175, cacheWrite: 0.0 },
+  "openai/gpt-5-mini": { input: 0.25, output: 2.0, cacheRead: 0.025, cacheWrite: 0.0 },
 }
 
 // ============================================================================

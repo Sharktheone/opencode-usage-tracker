@@ -1,0 +1,29 @@
+{
+  "name": "opencode-usage-tracker",
+  "version": "0.1.0",
+  "description": "Track token usage across OpenCode sessions with SQLite storage and custom pricing",
+  "type": "module",
+  "main": "usage-tracker.ts",
+  "exports": {
+    ".": "./usage-tracker.ts"
+  },
+  "files": [
+    "usage-tracker.ts",
+    "command/"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "token-usage",
+    "pricing",
+    "analytics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/opencode-usage-tracker"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@opencode-ai/plugin": "latest"
+  }
+}
